@@ -13,8 +13,18 @@
     tools:context="com.hustleandswag.www.a2am.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+
+    <com.digits.sdk.android.DigitsAuthButton
+        android:id="@+id/auth_button"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="recycler"
+        android:onClick="recycler" />
+
+
 </RelativeLayout>

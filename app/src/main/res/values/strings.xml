@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">2am</string>
     <string name="action_settings">Settings</string>
+    <string name="com.stripe.publishable_key" translatable="false">pk_test_ioNMICs7wzQXlVZ2TIigY35G</string>
 </resources>
